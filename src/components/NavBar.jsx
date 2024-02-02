@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import DarkMode from './DarkMode';
+import Img from '../assets/entrada-de-cine.png'
 import { Link } from 'react-router-dom';
 import {
   AppBar,
@@ -39,7 +40,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             >
               <Box m={2}>
                 <img
-                  src="src\assets\entrada-de-cine.png"
+                  src= {Img}
                   alt="entrada-de-cine"
                   width={60}
                   height={60}
